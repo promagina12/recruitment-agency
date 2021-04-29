@@ -1,0 +1,72 @@
+.btn {
+    padding: 21px 53px 20px 53px;
+    background-color: #b57ad2;
+    border-radius: 31.54px;
+    width: auto;
+}
+
+.navbar {
+    .nav-link {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 28px;
+        letter-spacing: 0;
+        color: #3c3c3c;
+    }
+
+    .sched {
+        border: 1px solid #b57ad2;
+        border-radius: 23px;
+        margin-left: 40px;
+
+        .link {
+            color: #b57ad2;
+            font-size: 16px;
+            line-height: 19px;
+            letter-spacing: 0;
+            font-weight: bold;
+            padding: 14px 20px 13px 20px;
+        }
+    }
+}
+
+.nav-nav {
+    box-shadow: 0px 2px 4px #000000;
+    border: 1px solid #707070;
+}
+
+.header {
+    background-image: url("/images/Oval.png");
+    background-position-x: 986px;
+    background-position-y: -322.53px;
+    background-repeat: no-repeat;
+
+    .container {
+        padding-bottom: 50px;
+    }
+
+    .px-3 {
+        padding-top: 150px;
+        .btn-lead {
+            padding-top: 40px;
+        }
+        
+        h1 {
+            font-size: 40px;
+            line-height: 42px;
+            font-weight: bold;
+            text-align: left;
+            letter-spacing: 0;
+            color: #3c3c3c;
+        }
+
+        p {
+            font-size: 20px;
+            line-height: 28px;
+            letter-spacing: 0;
+            text-align: left;
+            font-weight: 300;
+            color: #3c3c3c;
+        }
+    }
+}

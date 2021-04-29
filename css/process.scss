@@ -1,0 +1,96 @@
+.procress {
+    text-align: center;
+
+    .process-tittle {
+        padding-top: 50px;
+
+        h2 {
+            font-size: 32px;
+            font-weight: bold;
+            letter-spacing: 0;
+            line-height: 56px;
+            color: #3c3c3c;
+        }
+
+        p {
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 34px;
+            letter-spacing: 0;
+            color: #3c3c3c;
+        }
+    }
+
+    .process-holder {
+        position: relative;
+        top: 290px;
+        .background-holder {
+            position: absolute;
+            width: 100%;
+            left: -25px;
+            top: -205px;
+            z-index: 1;
+            img {
+                width: 104%;
+            }
+        }
+
+        .pic-1 {
+            top: -140px;
+            right: 6px;
+            z-index: 1;
+        }
+
+        .pic-2 {
+            left: 0;
+            top: -140px;
+            z-index: 1;
+        }
+
+        .pic-3 {
+            right: 2px;
+            top: -140px;
+            z-index: 1;
+        }
+
+        .pictures {
+            position: absolute;
+            width: 100%;
+        }
+
+        .row {
+            height: 439px;
+
+            .content {
+                padding-top: 100px;
+                margin-top: 40px;
+            }
+
+            .pink {
+                background: #b57ad2;
+            }
+
+            .dark-blue {
+                background: #3490cf;
+            }
+
+            h3 {
+                font-size: 20px;
+                font-weight: bold;
+                line-height: 25px;
+                letter-spacing: 0;
+                color: #fff;
+            }
+
+            p {
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 18px;
+                letter-spacing: 0;
+                text-align: left;
+                padding: 15px 53px;
+                color: #fff;
+            }
+        }
+    }
+}
