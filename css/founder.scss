@@ -1,0 +1,55 @@
+.founder {
+    background-image: url("/images/background-2.png");
+    margin-top: 50px;
+
+    .row {
+        padding: 50px 0;
+
+        .message {
+            padding-top: 0;
+
+            h2 {
+                font-size: 56px;
+                font-weight: 400;
+                line-height: 56px;
+                letter-spacing: 0;
+            }
+        }
+
+        .text {
+            margin-top: 70px;
+        }
+
+        .blockquote {
+            margin-top: 40px;
+            margin-bottom: 80px;
+
+            p {
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 34px;
+                letter-spacing: 0;
+                text-align: left;
+            }
+        }
+
+        cite {
+            margin-top: 60px;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 22px;
+            letter-spacing: 0;
+        }
+
+        .award {
+            margin-top: 18px;
+
+            small {
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 22px;
+                letter-spacing: 0;
+            }
+        }
+    }
+}

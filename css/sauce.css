@@ -1,0 +1,57 @@
+.sauce {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.sauce .sauce-title {
+  padding-bottom: 40px;
+}
+
+.sauce .sauce-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 56px;
+  color: #2b292d;
+}
+
+.sauce .sauce-title p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 34px;
+  color: #2b292d;
+}
+
+.sauce .row {
+  margin-bottom: 50px;
+}
+
+.sauce .row .card {
+  padding-top: 30px;
+}
+
+.sauce .row .card .card-img-top {
+  margin: 0 auto;
+}
+
+.sauce .row .card h3 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 30px;
+  letter-spacing: 0;
+  color: #2b292d;
+  padding-bottom: 15px;
+}
+
+.sauce .row .card p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0;
+  color: #2b292d;
+  padding: 0 42px;
+}
+
+.sauce .row .card-1 {
+  border: none;
+}
+/*# sourceMappingURL=sauce.css.map */
