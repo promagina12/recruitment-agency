@@ -1,5 +1,11 @@
 .procress {
     text-align: center;
+    height: 900px;
+
+    @media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+        height: auto;
+        margin-bottom: -60px;
+    }
 
     .process-tittle {
         padding-top: 50px;
@@ -10,6 +16,11 @@
             letter-spacing: 0;
             line-height: 56px;
             color: #3c3c3c;
+
+            @media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+                font-size: 26px;
+                line-height: 40px;
+            }
         }
 
         p {
@@ -18,20 +29,35 @@
             line-height: 34px;
             letter-spacing: 0;
             color: #3c3c3c;
+
+            @media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+                font-size: 14px;
+                line-height: 24px;
+            }
         }
     }
 
     .process-holder {
         position: relative;
         top: 290px;
+        @media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+            top: -80px;
+        }
         .background-holder {
             position: absolute;
             width: 100%;
             left: -25px;
             top: -205px;
             z-index: 1;
+            @media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+                width: 100%;
+            }
             img {
                 width: 104%;
+
+                @media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+                    display: none;
+                }
             }
         }
 
@@ -39,31 +65,64 @@
             top: -140px;
             right: 6px;
             z-index: 1;
+            @media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+                left: 0;
+                top: 0;
+            }
         }
 
         .pic-2 {
             left: 0;
             top: -140px;
             z-index: 1;
+
+            @media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+                top: 0;
+                right: 0;
+            }
         }
 
         .pic-3 {
             right: 2px;
             top: -140px;
             z-index: 1;
+
+            @media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+                left: 0;
+                top: 0;
+            }
         }
 
         .pictures {
             position: absolute;
             width: 100%;
+
+            @media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+                width: auto;
+            }
+
+            img {
+                @media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+                    width: 150px;
+                }
+            }
         }
 
         .row {
-            height: 439px;
+            height: 100%;
+            @media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+                height: 100%;
+                width: 100%;
+                margin: 0;
+            }
 
             .content {
                 padding-top: 100px;
                 margin-top: 40px;
+
+                @media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+                    padding-top: 120px;
+                }
             }
 
             .pink {
@@ -80,6 +139,11 @@
                 line-height: 25px;
                 letter-spacing: 0;
                 color: #fff;
+
+                @media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+                    font-size: 16px;
+                    line-height: 20px;
+                }
             }
 
             p {
@@ -90,6 +154,13 @@
                 text-align: left;
                 padding: 15px 53px;
                 color: #fff;
+
+                @media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+                    padding-left: 0;
+                    padding-right: 0;
+                    font-size: 14px;
+                    line-height: 18px;
+                }
             }
         }
     }

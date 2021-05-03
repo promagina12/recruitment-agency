@@ -3,6 +3,12 @@
   padding-top: 50px;
 }
 
+@media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+  .sauce {
+    padding-top: 0;
+  }
+}
+
 .sauce .sauce-title {
   padding-bottom: 40px;
 }
@@ -14,11 +20,25 @@
   color: #2b292d;
 }
 
+@media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+  .sauce .sauce-title h2 {
+    font-size: 26px;
+    line-height: 30px;
+  }
+}
+
 .sauce .sauce-title p {
   font-size: 16px;
   font-weight: 300;
   line-height: 34px;
   color: #2b292d;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+  .sauce .sauce-title p {
+    font-size: 14px;
+    line-height: 24px;
+  }
 }
 
 .sauce .row {

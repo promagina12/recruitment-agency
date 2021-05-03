@@ -18,6 +18,7 @@
 
 .expert .row {
   padding-top: 40px;
+  padding-bottom: 60px;
 }
 
 .expert .row .input-group {
@@ -26,8 +27,8 @@
 }
 
 .expert .row .desc {
-  height: 100px;
-  padding-bottom: 70px;
+  height: 150px;
+  padding-bottom: 120px;
 }
 
 .expert .row .first {

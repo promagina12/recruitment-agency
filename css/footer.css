@@ -1,4 +1,75 @@
 .footer {
-  background: #B57AD2;
+  background: #b57ad2;
+  color: #fff;
+}
+
+.footer .row {
+  padding-top: 30px;
+}
+
+.footer .company ul {
+  list-style: none;
+}
+
+.footer .company ul h3 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 31px;
+  letter-spacing: 0;
+}
+
+.footer .company ul a {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0;
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer .quick ul {
+  list-style: none;
+}
+
+.footer .quick ul h3 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 31px;
+  letter-spacing: 0;
+}
+
+.footer .quick ul a {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0;
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer .social-icons ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: -40px;
+  padding-top: 15px;
+}
+
+.footer .social-icons ul .bi {
+  width: 45px;
+  height: 33px;
+}
+
+.footer h6 {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0;
+}
+
+.footer .text-muted {
+  color: #ffffffa6 !important;
 }
 /*# sourceMappingURL=footer.css.map */

@@ -1,5 +1,13 @@
 .procress {
   text-align: center;
+  height: 900px;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+  .procress {
+    height: auto;
+    margin-bottom: -60px;
+  }
 }
 
 .procress .process-tittle {
@@ -14,6 +22,13 @@
   color: #3c3c3c;
 }
 
+@media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+  .procress .process-tittle h2 {
+    font-size: 26px;
+    line-height: 40px;
+  }
+}
+
 .procress .process-tittle p {
   font-size: 16px;
   font-weight: 300;
@@ -22,9 +37,22 @@
   color: #3c3c3c;
 }
 
+@media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+  .procress .process-tittle p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
 .procress .process-holder {
   position: relative;
   top: 290px;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+  .procress .process-holder {
+    top: -80px;
+  }
 }
 
 .procress .process-holder .background-holder {
@@ -35,8 +63,20 @@
   z-index: 1;
 }
 
+@media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+  .procress .process-holder .background-holder {
+    width: 100%;
+  }
+}
+
 .procress .process-holder .background-holder img {
   width: 104%;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+  .procress .process-holder .background-holder img {
+    display: none;
+  }
 }
 
 .procress .process-holder .pic-1 {
@@ -45,10 +85,24 @@
   z-index: 1;
 }
 
+@media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+  .procress .process-holder .pic-1 {
+    left: 0;
+    top: 0;
+  }
+}
+
 .procress .process-holder .pic-2 {
   left: 0;
   top: -140px;
   z-index: 1;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+  .procress .process-holder .pic-2 {
+    top: 0;
+    right: 0;
+  }
 }
 
 .procress .process-holder .pic-3 {
@@ -57,18 +111,51 @@
   z-index: 1;
 }
 
+@media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+  .procress .process-holder .pic-3 {
+    left: 0;
+    top: 0;
+  }
+}
+
 .procress .process-holder .pictures {
   position: absolute;
   width: 100%;
 }
 
+@media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+  .procress .process-holder .pictures {
+    width: auto;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+  .procress .process-holder .pictures img {
+    width: 150px;
+  }
+}
+
 .procress .process-holder .row {
-  height: 439px;
+  height: 100%;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+  .procress .process-holder .row {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+  }
 }
 
 .procress .process-holder .row .content {
   padding-top: 100px;
   margin-top: 40px;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+  .procress .process-holder .row .content {
+    padding-top: 120px;
+  }
 }
 
 .procress .process-holder .row .pink {
@@ -87,6 +174,13 @@
   color: #fff;
 }
 
+@media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+  .procress .process-holder .row h3 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
 .procress .process-holder .row p {
   font-size: 16px;
   font-weight: 300;
@@ -95,5 +189,14 @@
   text-align: left;
   padding: 15px 53px;
   color: #fff;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+  .procress .process-holder .row p {
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 14px;
+    line-height: 18px;
+  }
 }
 /*# sourceMappingURL=process.css.map */

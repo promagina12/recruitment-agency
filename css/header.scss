@@ -3,6 +3,25 @@
     background-color: #b57ad2;
     border-radius: 31.54px;
     width: auto;
+
+    @media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+        padding: 15px 40px 15px 40px;
+    }
+}
+
+.logo-1 {
+    display: none;
+    @media (max-width: 992px) {
+        display: block;
+    }
+}
+.collapse {
+    justify-content: space-between;
+}
+.logo {
+    @media (max-width: 992px) {
+        display: none;
+    }
 }
 
 .navbar {
@@ -12,20 +31,26 @@
         line-height: 28px;
         letter-spacing: 0;
         color: #3c3c3c;
+        padding-top: 10px;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
     }
 
     .sched {
         border: 1px solid #b57ad2;
         border-radius: 23px;
         margin-left: 40px;
+        color: #b57ad2;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0;
+        font-weight: bold;
+        padding: 14px 20px 13px 20px;
+        text-decoration: none;
 
-        .link {
-            color: #b57ad2;
-            font-size: 16px;
-            line-height: 19px;
-            letter-spacing: 0;
-            font-weight: bold;
-            padding: 14px 20px 13px 20px;
+        @media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+            margin: 0;
+            width: 170px;
         }
     }
 }
@@ -37,20 +62,40 @@
 
 .header {
     background-image: url("/images/Oval.png");
-    background-position-x: 986px;
-    background-position-y: -322.53px;
+    background-position-x: 938px;
+    background-position-y: -225px;
+    background-size: 1037px 850px;
     background-repeat: no-repeat;
+    @media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+        background-image: url("/images/Background-2.png");
+        background-size: 100% 100%;
+        background-position: center;
+    }
 
     .container {
         padding-bottom: 50px;
     }
 
+    .background-picture {
+        padding-top: 50px;
+        @media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+            padding-top: 60px;
+            padding-bottom: 50px;
+        }
+    }
+
     .px-3 {
         padding-top: 150px;
+        @media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+            padding-top: 55px;
+        }
         .btn-lead {
             padding-top: 40px;
+            @media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+                padding-top: 10px;
+            }
         }
-        
+
         h1 {
             font-size: 40px;
             line-height: 42px;
@@ -58,6 +103,11 @@
             text-align: left;
             letter-spacing: 0;
             color: #3c3c3c;
+
+            @media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+                font-size: 26px;
+                line-height: 30px;
+            }
         }
 
         p {
@@ -67,6 +117,19 @@
             text-align: left;
             font-weight: 300;
             color: #3c3c3c;
+
+            @media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+                font-size: 16px;
+                line-height: 28px;
+            }
         }
+    }
+}
+
+.achievements {
+    .achieve {
+        @media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+        height: 100px;
+    }
     }
 }
