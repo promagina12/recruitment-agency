@@ -1,6 +1,9 @@
 .footer {
     background: #b57ad2;
     color: #fff;
+    @media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+        padding: 0 !important;
+    }
 
     .row {
         padding-top: 30px;
@@ -8,6 +11,10 @@
     .company {
         ul {
             list-style: none;
+
+            @media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+                padding: 0;
+            }
 
             h3 {
                 font-size: 24px;
@@ -30,6 +37,9 @@
     .quick {
         ul {
             list-style: none;
+            @media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+                padding: 0;
+            }
 
             h3 {
                 font-size: 24px;
@@ -54,11 +64,16 @@
             list-style: none;
             display: flex;
             margin-left: -40px;
-            padding-top: 15px;
+            margin-top: auto;
 
             .bi {
                 width: 45px;
                 height: 33px;
+
+                @media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+                    width: 35px;
+                    height: 25px;
+                }
             }
         }
     }
@@ -73,5 +88,10 @@
 
     .text-muted {
         color: #ffffffa6 !important;
+
+        @media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+            padding-bottom: 15px;
+            margin: 0;
+        }
     }
 }

@@ -3,12 +3,24 @@
   color: #fff;
 }
 
+@media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+  .footer {
+    padding: 0 !important;
+  }
+}
+
 .footer .row {
   padding-top: 30px;
 }
 
 .footer .company ul {
   list-style: none;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+  .footer .company ul {
+    padding: 0;
+  }
 }
 
 .footer .company ul h3 {
@@ -29,6 +41,12 @@
 
 .footer .quick ul {
   list-style: none;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+  .footer .quick ul {
+    padding: 0;
+  }
 }
 
 .footer .quick ul h3 {
@@ -53,12 +71,19 @@
   display: -ms-flexbox;
   display: flex;
   margin-left: -40px;
-  padding-top: 15px;
+  margin-top: auto;
 }
 
 .footer .social-icons ul .bi {
   width: 45px;
   height: 33px;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+  .footer .social-icons ul .bi {
+    width: 35px;
+    height: 25px;
+  }
 }
 
 .footer h6 {
@@ -71,5 +96,12 @@
 
 .footer .text-muted {
   color: #ffffffa6 !important;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+  .footer .text-muted {
+    padding-bottom: 15px;
+    margin: 0;
+  }
 }
 /*# sourceMappingURL=footer.css.map */

@@ -3,11 +3,24 @@
   padding: 50px;
 }
 
+@media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+  .success {
+    padding: 20px;
+  }
+}
+
 .success .success-tittle h2 {
   font-size: 32px;
   font-weight: bold;
   line-height: 56px;
   letter-spacing: 0;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+  .success .success-tittle h2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
 }
 
 .success .success-tittle p {
@@ -17,13 +30,32 @@
   letter-spacing: 0;
 }
 
+@media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+  .success .success-tittle p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
 .success .row {
   margin-top: 40px;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+  .success .row {
+    margin-top: 40px;
+  }
 }
 
 .success .row .card-1 {
   bottom: -240px;
   border: none;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+  .success .row .card-1 {
+    bottom: 0;
+  }
 }
 
 .success .row li {
@@ -56,10 +88,26 @@
   letter-spacing: 0;
 }
 
+@media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+  .success .row li h3 {
+    font-size: 20px;
+  }
+}
+
 .success .row li p {
   font-size: 16px;
   font-weight: 300;
   line-height: 22px;
   letter-spacing: 0;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+  .success .row li p {
+    font-size: 14px;
+  }
+}
+
+.success .row img {
+  width: 100%;
 }
 /*# sourceMappingURL=success.css.map */

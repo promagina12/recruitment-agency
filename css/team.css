@@ -6,4 +6,30 @@
   background-position: center;
   background-size: 112% 100%;
 }
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+  .team {
+    padding: 15px;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+  .team img {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+  .team .tittle h2 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 30px;
+  }
+}
+
+.team .tittle p {
+  font-size: 12px;
+  line-height: 18px;
+  padding-bottom: 20px;
+}
 /*# sourceMappingURL=team.css.map */

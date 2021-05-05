@@ -51,6 +51,13 @@
 
 .sauce .row .card .card-img-top {
   margin: 0 auto;
+  width: 154px;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+  .sauce .row .card .card-img-top {
+    width: 100px;
+  }
 }
 
 .sauce .row .card h3 {
@@ -62,6 +69,13 @@
   padding-bottom: 15px;
 }
 
+@media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+  .sauce .row .card h3 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
 .sauce .row .card p {
   font-size: 16px;
   font-weight: 300;
@@ -69,6 +83,14 @@
   letter-spacing: 0;
   color: #2b292d;
   padding: 0 42px;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+  .sauce .row .card p {
+    font-size: 12px;
+    line-height: 20px;
+    padding: 0;
+  }
 }
 
 .sauce .row .card-1 {

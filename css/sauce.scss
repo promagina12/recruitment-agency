@@ -40,6 +40,11 @@
             padding-top: 30px;
             .card-img-top {
                 margin: 0 auto;
+                width: 154px;
+
+                @media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+                  width: 100px;  
+                }
             }
 
             h3 {
@@ -49,6 +54,11 @@
                 letter-spacing: 0;
                 color: #2b292d;
                 padding-bottom: 15px;
+
+                @media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+                    font-size: 16px;
+                    line-height: 24px;
+                }
             }
 
             p {
@@ -58,6 +68,12 @@
                 letter-spacing: 0;
                 color: #2b292d;
                 padding: 0 42px;
+                
+                @media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+                    font-size: 12px;
+                    line-height: 20px;
+                    padding: 0;
+                }
             }
         }
 

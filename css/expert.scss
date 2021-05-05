@@ -7,6 +7,11 @@
             font-weight: bold;
             line-height: 56px;
             letter-spacing: 0;
+
+            @media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+                font-size: 24px;
+                line-height: 30px;
+            }
         }
 
         p {
@@ -14,12 +19,21 @@
             font-weight: 300;
             line-height: 34px;
             letter-spacing: 0;
+
+            @media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+                font-size: 14px;
+                line-height: 20px;
+            }
         }
     }
 
     .row {
         padding-top: 40px;
         padding-bottom: 60px;
+
+        @media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+            padding-bottom: 90px;
+        }
         .input-group {
             width: 90%;
             height: 40px;
@@ -28,6 +42,12 @@
         .desc {
             height: 150px;
             padding-bottom: 120px;
+
+            @media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+                height: 130px;
+            }
+
+
         }
 
         .first {
@@ -56,11 +76,20 @@
                 font-weight: 300;
                 line-height: 40px;
                 letter-spacing: 0;
+
+                @media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+                    font-size: 16px;
+                    line-height: 30px;
+                    padding-bottom: 10px;
+                }
             }
         }
 
         .line {
             padding-left: 194px;
+            @media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+                padding-left: 0;
+            }
         }
 
         .list {
@@ -71,6 +100,11 @@
                 font-weight: bold;
                 line-height: 29px;
                 letter-spacing: 0;
+
+                @media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+                    padding-top: 15px;
+                    font-size: 20px;
+                }
             }
         }
     }

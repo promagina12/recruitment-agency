@@ -9,6 +9,13 @@
   letter-spacing: 0;
 }
 
+@media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+  .expert .expert-tittle h2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+
 .expert .expert-tittle p {
   font-size: 16px;
   font-weight: 300;
@@ -16,9 +23,22 @@
   letter-spacing: 0;
 }
 
+@media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+  .expert .expert-tittle p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
 .expert .row {
   padding-top: 40px;
   padding-bottom: 60px;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+  .expert .row {
+    padding-bottom: 90px;
+  }
 }
 
 .expert .row .input-group {
@@ -29,6 +49,12 @@
 .expert .row .desc {
   height: 150px;
   padding-bottom: 120px;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+  .expert .row .desc {
+    height: 130px;
+  }
 }
 
 .expert .row .first {
@@ -60,8 +86,22 @@
   letter-spacing: 0;
 }
 
+@media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+  .expert .row .content p {
+    font-size: 16px;
+    line-height: 30px;
+    padding-bottom: 10px;
+  }
+}
+
 .expert .row .line {
   padding-left: 194px;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+  .expert .row .line {
+    padding-left: 0;
+  }
 }
 
 .expert .row .list h3 {
@@ -71,5 +111,12 @@
   font-weight: bold;
   line-height: 29px;
   letter-spacing: 0;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 992px) {
+  .expert .row .list h3 {
+    padding-top: 15px;
+    font-size: 20px;
+  }
 }
 /*# sourceMappingURL=expert.css.map */
